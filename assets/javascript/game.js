@@ -27,10 +27,8 @@ var planeCost = possibleCost[Math.floor(Math.random() * possibleCost.length)];
 console.log(planeCost);
 
 
-
-
-//testing
-$(document).ready(function() {
+// functions to send item costs to total cost via click of item
+	$(document).ready(function() {
 
     $("#car").on("click", function() {
 
