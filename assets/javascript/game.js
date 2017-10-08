@@ -37,4 +37,19 @@ $(document).ready(function() {
         $("#yourBill").html("$ " + carCost);
     });
 
+    $("#diamond").on("click", function() {
+
+        $("#yourBill").html("$ " + diamondCost);
+    });
+
+    $("#amazon").on("click", function() {
+
+        $("#yourBill").html("$ " + amazonCost);
+    });
+
+    $("#plane").on("click", function() {
+
+        $("#yourBill").html("$ " + planeCost);
+    });
+
 });
