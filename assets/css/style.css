@@ -2,26 +2,11 @@
 	background-image: url("../images/background.jpeg");
 }
 
-#row-1 {
-	background-color: white;
-}
-
-#row-2 {
-	background-color: white;
-}
-
-#row-3 {
-	background-color: white;
-}
-
-#row-4 {
-	background-color: white;
-}
-
 .row {
 	border: 1px;
 	border-color: black;
 	border-style: solid;
+	background-color: white;
 }
 
 .icons {
