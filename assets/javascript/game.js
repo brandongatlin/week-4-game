@@ -14,17 +14,18 @@ $("#yourAllowance").html(monthlyAllowance);
 var possibleCost = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 // create variables for each icon image and assign random values to them?
-var carCost = 
+var carCost = possibleCost[Math.floor(Math.random() * possibleCost.length)];
+console.log(carCost);
+
+var diamondCost = possibleCost[Math.floor(Math.random() * possibleCost.length)];
+console.log(diamondCost);
+
+var amazonCost = possibleCost[Math.floor(Math.random() * possibleCost.length)];
+console.log(amazonCost);
+
+var planeCost = possibleCost[Math.floor(Math.random() * possibleCost.length)];
+console.log(planeCost);
 
 
 
-var diamondCost = 
-
-
-
-var amazonCost = 
-
-
-
-var planeCost = 
 
