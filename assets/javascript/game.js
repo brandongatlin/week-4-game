@@ -51,3 +51,22 @@ console.log(planeCost);
     });
 
 });
+
+	// testing
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
