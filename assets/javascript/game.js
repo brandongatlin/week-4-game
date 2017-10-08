@@ -10,6 +10,21 @@ console.log(monthlyAllowance);
 // push var monthlyAllowance to #yourAllowance
 $("#yourAllowance").html(monthlyAllowance);
 
+// create array possibleCost for possible values of all purchases
+var possibleCost = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
-// 
+// create variables for each icon image and assign random values to them?
+var carCost = 
+
+
+
+var diamondCost = 
+
+
+
+var amazonCost = 
+
+
+
+var planeCost = 
 
