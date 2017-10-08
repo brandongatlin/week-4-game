@@ -11,9 +11,14 @@
 }
 
 #row-4 {
-	background-color: green;
+	background-color: yellow;
 }
 
 .icons {
-	font-size: 100px
+	font-size: 100px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
 }
