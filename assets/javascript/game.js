@@ -52,12 +52,30 @@ console.log(planeCost);
 
 });
 
+//wins, lose counters
+//reset function
+
 	// testing
 
-	
+var reset = function() {
+    monthlyAllowance = "";
+    yourBill = 0;
+}
 
+var yourBill = "";
 
+if (monthlyAllowance === yourBill) {
+            wins++;
+            $("#wins").html = "Wins: " + wins;
+            reset();
+        }
+    
 
+    if (monthlyAllowance >= yourBill) {
+        losses++;
+        $("#losses").html = "Losses: " + losses;
+        reset();
+    }
 
 
 
