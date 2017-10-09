@@ -30,12 +30,12 @@ console.log(planeCost);
 // functions to send item costs to total cost via click of item
 	$(document).ready(function() {
 
-    $("#car").on("click", function() {
+    $("#car").on("click", function () {
 
         $("#yourBill").html("$ " + carCost);
     });
 
-    $("#diamond").on("click", function() {
+    $("#diamond").on("click", function () {
 
         $("#yourBill").html("$ " + diamondCost);
     });

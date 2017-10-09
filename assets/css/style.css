@@ -1,12 +1,13 @@
-#main-container {
-	background-image: url("../images/background.jpeg");
+#background-container {
+    background-image: url("../images/background.jpeg");
+    width: 100%;
 }
 
 .row {
 	border: 1px;
-	border-color: black;
+	border-color: #68f442;
 	border-style: solid;
-	background-color: white;
+	background-color: #ffffff;
 }
 
 .icons {
