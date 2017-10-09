@@ -92,5 +92,3 @@ if (monthlyAllowance >= yourBill) {
 }
 
 //audio file cha-ching
-var chaChing = new Audio();
-chaChing.src = "../assets/audio-files/cha-ching.mp3";
