@@ -35,6 +35,7 @@ $(document).ready(function() {
     $(".icons").mouseup(function() {
         $(this).fadeTo("fast", 1);
     });
+
 });
 
 
