@@ -29,11 +29,11 @@ console.log(planeCost);
 // button animations
 $(document).ready(function() {
     $(".icons").mousedown(function() {
-        $(this).fadeTo("slow", 0.1);
+        $(this).fadeTo("fast", 0.25);
     });
 
     $(".icons").mouseup(function() {
-        $(this).fadeTo("slow", 1);
+        $(this).fadeTo("fast", 1);
     });
 });
 
