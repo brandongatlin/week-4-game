@@ -26,16 +26,29 @@ console.log(amazonCost);
 var planeCost = possibleCost[Math.floor(Math.random() * possibleCost.length)];
 console.log(planeCost);
 
+// button animations
+$(document).ready(function() {
+    $(".icons").mousedown(function() {
+        $(this).fadeTo("slow", 0.1);
+    });
+
+    $(".icons").mouseup(function() {
+        $(this).fadeTo("slow", 1);
+    });
+});
+
+
+
 
 // functions to send item costs to total cost via click of item
-	$(document).ready(function() {
+$(document).ready(function() {
 
-    $("#car").on("click", function () {
+    $("#car").on("click", function() {
 
         $("#yourBill").html("$ " + carCost);
     });
 
-    $("#diamond").on("click", function () {
+    $("#diamond").on("click", function() {
 
         $("#yourBill").html("$ " + diamondCost);
     });
@@ -55,7 +68,7 @@ console.log(planeCost);
 //wins, lose counters
 //reset function
 
-	// testing
+// testing
 
 var reset = function() {
     monthlyAllowance = "";
@@ -65,26 +78,14 @@ var reset = function() {
 var yourBill = "";
 
 if (monthlyAllowance === yourBill) {
-            wins++;
-            $("#wins").html = "Wins: " + wins;
-            reset();
-        }
-    
-
-    if (monthlyAllowance >= yourBill) {
-        losses++;
-        $("#losses").html = "Losses: " + losses;
-        reset();
-    }
+    wins++;
+    $("#wins").html = "Wins: " + wins;
+    reset();
+}
 
 
-
-
-
-
-
-
-
-
-
-
+if (monthlyAllowance >= yourBill) {
+    losses++;
+    $("#losses").html = "Losses: " + losses;
+    reset();
+}

@@ -4,39 +4,37 @@
 }
 
 .row {
-	border: 1px;
-	border-color: #68f442;
-	border-style: solid;
-	background-color: #ffffff;
+    border: 1px;
+    border-color: #68f442;
+    border-style: solid;
+    background-color: #ffffff;
 }
 
 .icons {
-	font-size: 100px;
-	text-align: center;
+    font-size: 100px;
+    text-align: center;
+    color: red;
 }
 
 h1 {
-	text-align: center;
+    text-align: center;
 }
 
 * {
-	font-family: 'Arima Madurai', cursive;
-	padding: 15px;
+    font-family: 'Arima Madurai', cursive;
+    padding: 15px;
 }
 
 @media only screen and (max-width: 500px) {
     row-4-col-1 {
         float: left;
     }
-
     row-4-col-2 {
         float: right;
     }
-
     row-4-col-3 {
         float: left;
     }
-
     row-4-col-4 {
         float: right;
     }
