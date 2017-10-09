@@ -92,16 +92,5 @@ if (monthlyAllowance >= yourBill) {
 }
 
 //audio file cha-ching
-$(document).ready(function() {
-    var obj = document.createElement("audio");
-    obj.src = "../audio-files/cha-ching.mp3";
-    obj.volume = 0.10;
-    obj.autoPlay = false;
-    obj.preLoad = true;
-
-    $(".icons").click(function() {
-        obj.play();
-    });
-
-});
-//testing
+var chaChing = new Audio();
+chaChing.src = "../assets/audio-files/cha-ching.mp3";
