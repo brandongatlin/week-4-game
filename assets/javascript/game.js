@@ -84,6 +84,8 @@ $(document).ready(function() {
 
         $("#yourBill").html("$ " + yourBill);
 
+        chaChing.play();
+
         if (monthlyAllowance === yourBill) {
 
             wins++;
@@ -97,13 +99,14 @@ $(document).ready(function() {
             $("#losses").html("Losses: " + losses);
             reset();
         }
-        chaChing.play();
     });
 
     $("#diamond").on("click", function() {
         yourBill = yourBill + diamondCost
         $("#yourBill").html("$ " + yourBill);
 
+        chaChing.play();
+
         if (monthlyAllowance === yourBill) {
             wins++;
             $("#wins").html("Wins: " + wins);
@@ -115,13 +118,14 @@ $(document).ready(function() {
             $("#losses").html("Losses: " + losses);
             reset();
         }
-        chaChing.play();
     });
 
     $("#amazon").on("click", function() {
         yourBill = yourBill + amazonCost
         $("#yourBill").html("$ " + yourBill);
 
+        chaChing.play();
+
         if (monthlyAllowance === yourBill) {
             wins++;
             $("#wins").html("Wins: " + wins);
@@ -133,13 +137,14 @@ $(document).ready(function() {
             $("#losses").html("Losses: " + losses);
             reset();
         }
-        chaChing.play();
     });
 
     $("#plane").on("click", function() {
         yourBill = yourBill + planeCost
         $("#yourBill").html("$ " + yourBill);
 
+        chaChing.play();
+
         if (monthlyAllowance === yourBill) {
             wins++;
             $("#wins").html("Wins: " + wins);
@@ -151,12 +156,11 @@ $(document).ready(function() {
             $("#losses").html("Losses: " + losses);
             reset();
         }
-        chaChing.play();
     });
 
 });
 
 
 //audio file cha-ching
-var chaChing = new Audio("assets/javascript/cha-ching.mp3");
+var chaChing = new Audio("assets/javascript/ChaChing.mp3");
 chaChing.play();
