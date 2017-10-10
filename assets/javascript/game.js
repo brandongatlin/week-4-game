@@ -97,7 +97,7 @@ $(document).ready(function() {
             $("#losses").html("Losses: " + losses);
             reset();
         }
-
+        chaChing.play();
     });
 
     $("#diamond").on("click", function() {
@@ -133,6 +133,7 @@ $(document).ready(function() {
             $("#losses").html("Losses: " + losses);
             reset();
         }
+        chaChing.play();
     });
 
     $("#plane").on("click", function() {
@@ -150,6 +151,7 @@ $(document).ready(function() {
             $("#losses").html("Losses: " + losses);
             reset();
         }
+        chaChing.play();
     });
 
 });
